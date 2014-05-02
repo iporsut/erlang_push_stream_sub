@@ -1,0 +1,12 @@
+{application, erlang_push_stream_sub,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlang_push_stream_sub_app, []}},
+  {env, []}
+ ]}.
